@@ -2,6 +2,8 @@
 
 p <-rpois(22, 8)
 p
-plot(p)
 print("Hello World")
 print("This sucks")
+m<-mean(p)
+m1<-median(p)
+plot(p,m,m1)
